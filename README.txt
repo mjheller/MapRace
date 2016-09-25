@@ -4,3 +4,5 @@ npm install -g cordova
 
 'npm install' to install package.json dependancies
 'cordova prepare' to install plugins and platforms
+
+'ionic serve --lab' to run in localhost
