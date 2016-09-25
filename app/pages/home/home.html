@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <button primary (click)="start()">Start Tracking</button>
+  <button primary (click)="stop()">Stop Tracking</button>
+  <div> 
+    <span>Current Location: {{currentLocation}}</span>
+  </div>
+</ion-content>
