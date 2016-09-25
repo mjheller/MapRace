@@ -3,6 +3,7 @@ npm install -g ionic
 npm install -g cordova
 
 'npm install' to install package.json dependancies
-'cordova prepare' to install plugins and platforms
-
-'ionic serve --lab' to run in localhost
+add www/ in root directory
+cordova platform add android
+cordova platform add ios
+ionic serve --lab
